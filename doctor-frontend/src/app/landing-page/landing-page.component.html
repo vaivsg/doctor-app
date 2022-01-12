@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <ul class="navbar-nav w-100">
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/user-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >User</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/doctor-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >Doctor</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/patient-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >Patient</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/admin-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >Admin</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/appointment-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >Appointment</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/availabilitydates-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >AvailabilityDates</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        routerLink="/landing-page/feedback-list"
+        routerLinkActive="active"
+        class="nav-link"
+        style="margin-right: 10px"
+        >Feedback</a
+      >
+    </li>
+    <a class="navbar-brand ml-auto" routerLink="/landing-page/user-list">Appointment</a>
+    <button class="btn btn-danger" (click)="logout()">Logout</button>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="footer">
+  <div class="container">
+    <span>All rights Reserved 2022 @ITC Project @VaibhavGupta</span>
+  </div>
+</footer>

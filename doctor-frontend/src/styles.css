@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  background-color: #283d3b;
+  padding: 25px;
+}
+
+ /* @keyframes example {
+  from {
+    background-image: linear-gradient(135deg, #97abff 10%, #123597 100%);
+    width: 0%;
+    color: inherit;
+  }
+  to {
+    background-image: linear-gradient(135deg, #ff6fd8 10%, #3813c2 100%);
+    width: 100%;
+    color: white;
+  }
+} */
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  50%  {left:400px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+
+
+
+body {
+  background-image: linear-gradient(135deg, #ffffff 10%, #edddd4 100%);
+}
+
+.hdr {
+  width:fit-content;
+  padding: 0 20px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  background-color: #c44536;
+  position: relative;
+  margin: 0 auto;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-direction: alternate; 
+  color: whitesmoke
+}
+
+.navbar {
+  background-image: linear-gradient(135deg, #197278 10%, #197278 100%);
+}
